@@ -4,7 +4,7 @@
 apiVersion: app.coreos.com/v1alpha1
 kind: ClusterServiceVersion-v1
 metadata:
-  name: echo-operator.v0.0.1
+  name: echo-operator
   namespace: echo-operator
 spec:
   install: 
@@ -33,7 +33,7 @@ spec:
             spec:
               containers:
                 - name: echo-operator
-                  image: docker.io/tohinkashem/echo-operator:v0.0.1
+                  image: docker.io/tohinkashem/echo-operator:v0.0.2
                   command: 
                   - /usr/local/bin/echo-operator
                   env:

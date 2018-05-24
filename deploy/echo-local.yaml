@@ -4,3 +4,4 @@ metadata:
   name: "echo-local"
 spec:
   size: 1
+  image: "docker.io/tohinkashem/echo:1.0"

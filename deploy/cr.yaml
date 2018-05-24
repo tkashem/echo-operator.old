@@ -1,4 +1,0 @@
-apiVersion: "echo.redhat.com/v1"
-kind: "EchoApp"
-metadata:
-  name: "echo-service-local"

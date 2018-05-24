@@ -22,7 +22,8 @@ type EchoApp struct {
 }
 
 type EchoAppSpec struct {
-	Size int32 `json:"size"`
+	Size  int32  `json:"size"`
+	Image string `json:"image"`
 }
 type EchoAppStatus struct {
 	Nodes []string `json:"nodes"`

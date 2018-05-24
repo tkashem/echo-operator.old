@@ -36,7 +36,7 @@ func deployment(m *echov1.EchoApp) *appsv1.Deployment {
 				},
 				Spec: v1.PodSpec{
 					Containers: []v1.Container{{
-						Image: "docker.io/tohinkashem/echo:1.0",
+						Image: m.Spec.Image,
 						Name:  "echo",
 						Ports: []v1.ContainerPort{{
 							ContainerPort: 3000,
