@@ -22,8 +22,8 @@ type EchoApp struct {
 }
 
 type EchoAppSpec struct {
-	// Fill me
+	Size int32 `json:"size"`
 }
 type EchoAppStatus struct {
-	// Fill me
+	Nodes []string `json:"nodes"`
 }
